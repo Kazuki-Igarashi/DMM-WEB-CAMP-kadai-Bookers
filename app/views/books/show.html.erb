@@ -1,0 +1,11 @@
+<h3>Title</h3>
+<p><%= @book.title %></p>
+
+<h3>Body</h3>
+<p><%= @book.body %></p>
+
+  <tr>
+		<td><%= link_to "edit", edit_book_path(@book.id) %></td>
+		<td><%= link_to 'back', :top %></td>
+		<td><%= link_to "destroy", book_path(@book.id), method: :delete, "data-confirm" => "Are you sure?" %></td>
+  </tr>
