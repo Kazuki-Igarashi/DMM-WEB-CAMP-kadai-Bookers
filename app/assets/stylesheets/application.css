@@ -1,0 +1,134 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 20px 30px;
+}
+
+.book-head {
+  font-size: 20px;
+  text-align: center;
+}
+
+.book-body {
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+  border-left: 15px;
+}
+
+th {
+  font-size: 18px;
+  text-align: center;
+}
+
+td {
+  border-left: 20px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 15px;
+  text-align: start;
+}
+
+.book-title {
+  padding: 0 20px;
+  font-size: 12px:
+}
+
+h3 {
+  font-size: 20px;
+  padding: 10px;
+  margin: 20px 10px 0 10px;
+}
+
+.book-field {
+  margin: 0 20px;
+  font-size: 15px;
+}
+
+.edit {
+  font-size: 15px;
+  margin: 20px 30px;
+}
+
+.edit-update {
+  padding: 5px 0;
+}
+ 
+.edit-wrap{
+  display: flex;
+}
+
+.edit-link {
+  margin: 1px;
+  padding: 0 5px 0 0;
+  border-right: 2px solid #000000;
+  height: 20px;
+}
+
+.edit-back {
+  margin: 1px;
+  padding: 0 5px 0 5px;
+}
+
+.show {
+  padding: 15px 0 15px 30px;
+}
+
+.show-wrap {
+  display: flex;
+  /*padding: 15px;*/
+  border: 10px;
+  margin: 10px;
+}
+
+.show-edit, .show-back {
+  margin: 1px;
+  padding: 0 5px 0 5px;
+  border-right: 2px solid #000000;
+  height: 20px;
+}
+
+.show-destroy {
+  margin: 1px;
+  padding: 0 5px 0 5px;
+}
+
+
+.flash-message {
+  border-radius: 5px;
+  padding: 16px 24px;
+  margin: 16px 0px;
+}
+ 
+.flash-message.notice {
+  background-color: #bcdfff;
+  color: #0067C0;
+  border: solid 1px #0067C0;
+}
+ 
+.flash-message.alert {
+  background-color: #ffd4d1;
+  color: #930403;
+  border: solid 1px #930403;
+}
