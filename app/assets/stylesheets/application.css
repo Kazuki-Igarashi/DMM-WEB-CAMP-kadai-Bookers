@@ -52,7 +52,7 @@ td {
 
 .book-title {
   padding: 0 20px;
-  font-size: 12px:
+  font-size: 12px;
 }
 
 h3 {
@@ -131,4 +131,8 @@ h3 {
   background-color: #ffd4d1;
   color: #930403;
   border: solid 1px #930403;
+}
+
+.top {
+  padding: 20px;
 }
