@@ -1,8 +1,9 @@
 class BooksController < ApplicationController
   
-  # def top
-    
-  # end
+  def top
+    @books = Book.all
+    @book = Book.new
+  end
   
   def index
     @books = Book.all

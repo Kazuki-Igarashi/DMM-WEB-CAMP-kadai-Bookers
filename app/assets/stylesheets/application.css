@@ -20,9 +20,23 @@
   box-sizing: border-box;
 }
 
+*{
+  font-family: verdana, arial, sans-serif;
+}
+
 h1 {
   font-size: 30px;
   margin: 20px 30px;
+}
+
+.top {
+  padding: 30px;
+}
+
+.book-top {
+  margin: 20px 0 0 20px;
+  padding: 20px;
+  margin-left: 15px;
 }
 
 .book-head {
@@ -133,6 +147,3 @@ h3 {
   border: solid 1px #930403;
 }
 
-.top {
-  padding: 20px;
-}
